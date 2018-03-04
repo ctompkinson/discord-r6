@@ -66,13 +66,65 @@ func printStats(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+	getOperators := len(parts) == 3
 	r6 := r6.NewClient(http.Client{})
-	player, err := r6.GetPlayer(parts[1], "uplay")
+	player, err := r6.GetPlayer(parts[1], "uplay", getOperators)
 	if err != nil {
 		s.ChannelMessageSendEmbed(m.ChannelID, newMsg("Unable to find player"))
 		return
 	}
 
+	if len(parts) == 3 {
+		sendOperatorMessage(s, m, player, strings.TrimSpace(parts[2]))
+		return
+	}
+
+	sendStatsMessage(s, m, player)
+	return
+}
+
+func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player) {
+	msg := discordgo.MessageEmbed{
+		Title: fmt.Sprintf("Siege Stats for %s", player.Username),
+		Color: 10,
+		Fields: []*discordgo.MessageEmbedField{
+			{
+				Name:   "Ranked K/D",
+				Value:  strconv.FormatFloat(player.Stats.Ranked.KillDeathRatio, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Ranked W/L",
+				Value:  strconv.FormatFloat(player.Stats.Ranked.WinLossRatio, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Ranked PlayTime",
+				Value:  strconv.FormatFloat(player.Stats.Ranked.Playtime / 60 / 60, 'f', 1, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Casual K/D",
+				Value:  strconv.FormatFloat(player.Stats.Casual.KillDeathRatio, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Casual W/L",
+				Value:  strconv.FormatFloat(player.Stats.Casual.WinLossRatio, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Casual PlayTime",
+				Value:  strconv.FormatFloat(player.Stats.Casual.Playtime / 60 / 60, 'f', 1, 64),
+				Inline: true,
+			},
+		},
+	}
+
+	s.ChannelMessageSendEmbed(m.ChannelID, &msg)
+}
+
+func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, operator string) {
 	msg := discordgo.MessageEmbed{
 		Title: fmt.Sprintf("Siege Stats for %s", player.Username),
 		Color: 10,
