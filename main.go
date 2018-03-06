@@ -125,6 +125,11 @@ func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r
 }
 
 func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, operator string) {
+	op := player.Operators[operator]
+
+	kd := op.Kills / op.Deaths
+	wl := op.Wins / op.Losses
+
 	msg := discordgo.MessageEmbed{
 		Title: fmt.Sprintf("Siege Stats for %s", player.Username),
 		Color: 10,
