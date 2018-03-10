@@ -66,9 +66,9 @@ func printStats(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
-	getOperators := len(parts) == 3
+	//getOperators := len(parts) == 3
 	r6 := r6.NewClient(http.Client{})
-	player, err := r6.GetPlayer(parts[1], "uplay", getOperators)
+	player, err := r6.GetPlayer(parts[1], "uplay", true)
 	if err != nil {
 		s.ChannelMessageSendEmbed(m.ChannelID, newMsg("Unable to find player"))
 		return
@@ -84,6 +84,35 @@ func printStats(s *discordgo.Session, m *discordgo.MessageCreate) {
 }
 
 func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player) {
+	fmt.Println("Sending stats")
+
+	fmt.Println(player.Operators)
+
+	// Some intial operators to compare against
+	favOff := player.Operators["ash"]
+	favDef := player.Operators["frost"]
+
+	for _, op := range player.Operators {
+		if op.Role == "atk" {
+			if op.Playtime > favOff.Playtime {
+				fmt.Println("fav off op is " + op.Name)
+				favOff = op
+			}
+		}
+
+		if op.Role == "def" {
+			if op.Playtime > favDef.Playtime {
+				fmt.Println("fav def op is " + op.Name)
+				favDef = op
+			}
+		}
+	}
+
+	favOffKD := float64(favOff.Kills) / float64(favOff.Deaths)
+	favOffWL :=
+	favDefKD :=
+	favDefWL :=
+
 	msg := discordgo.MessageEmbed{
 		Title: fmt.Sprintf("Siege Stats for %s", player.Username),
 		Color: 10,
@@ -116,6 +145,26 @@ func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r
 			{
 				Name:   "Casual PlayTime",
 				Value:  strconv.FormatFloat(player.Stats.Casual.Playtime / 60 / 60, 'f', 1, 64),
+				Inline: true,
+			},
+			{
+				Name: "Favorite Atk Op",
+				Value: favOff.Name,
+				Inline: true,
+			},
+			{
+				Name: "Favorite Atk Op",
+				Value: strconv.FormatFloat(, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Favorite Atk Op",
+				Value:  favOff.Name,
+				Inline: true,
+			},
+			{
+				Name: "Favorite Def Op",
+				Value: favDef.Name,
 				Inline: true,
 			},
 		},
