@@ -66,6 +66,16 @@ func printStats(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+	fmt.Println("Sending stats")
+	loadingMsg := discordgo.MessageEmbed{
+		Title: "Loading stats for " + parts[1],
+	}
+	msg, err := s.ChannelMessageSendEmbed(m.ChannelID, &loadingMsg)
+	if err != nil {
+		log.Println(err)
+		return
+	}
+
 	//getOperators := len(parts) == 3
 	r6 := r6.NewClient(http.Client{})
 	player, err := r6.GetPlayer(parts[1], "uplay", true)
@@ -79,14 +89,11 @@ func printStats(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
-	sendStatsMessage(s, m, player)
+	sendStatsMessage(s, m, player, msg)
 	return
 }
 
-func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player) {
-	fmt.Println("Sending stats")
-
-	fmt.Println(player.Operators)
+func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, msg *discordgo.Message) {
 
 	// Some intial operators to compare against
 	favOff := player.Operators["ash"]
@@ -95,82 +102,98 @@ func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r
 	for _, op := range player.Operators {
 		if op.Role == "atk" {
 			if op.Playtime > favOff.Playtime {
-				fmt.Println("fav off op is " + op.Name)
 				favOff = op
 			}
 		}
 
 		if op.Role == "def" {
 			if op.Playtime > favDef.Playtime {
-				fmt.Println("fav def op is " + op.Name)
 				favDef = op
 			}
 		}
 	}
 
-	favOffKD := float64(favOff.Kills) / float64(favOff.Deaths)
-	favOffWL :=
-	favDefKD :=
-	favDefWL :=
+	favOffKD := operatorKD(&favOff)
+	favOffWL := operatorWL(&favOff)
 
-	msg := discordgo.MessageEmbed{
+	favDefKD := operatorKD(&favDef)
+	favDefWL := operatorWL(&favDef)
+
+	statsMsg := discordgo.MessageEmbed{
 		Title: fmt.Sprintf("Siege Stats for %s", player.Username),
 		Color: 10,
 		Fields: []*discordgo.MessageEmbedField{
-			{
-				Name:   "Ranked K/D",
-				Value:  strconv.FormatFloat(player.Stats.Ranked.KillDeathRatio, 'f', 3, 64),
-				Inline: true,
-			},
-			{
-				Name:   "Ranked W/L",
-				Value:  strconv.FormatFloat(player.Stats.Ranked.WinLossRatio, 'f', 3, 64),
-				Inline: true,
-			},
+			// Ranked
 			{
 				Name:   "Ranked PlayTime",
 				Value:  strconv.FormatFloat(player.Stats.Ranked.Playtime / 60 / 60, 'f', 1, 64),
 				Inline: true,
 			},
 			{
-				Name:   "Casual K/D",
-				Value:  strconv.FormatFloat(player.Stats.Casual.KillDeathRatio, 'f', 3, 64),
+				Name:   "Kill/Death",
+				Value:  strconv.FormatFloat(player.Stats.Ranked.KillDeathRatio, 'f', 3, 64),
 				Inline: true,
 			},
 			{
-				Name:   "Casual W/L",
-				Value:  strconv.FormatFloat(player.Stats.Casual.WinLossRatio, 'f', 3, 64),
+				Name:   "Win/Loss",
+				Value:  strconv.FormatFloat(player.Stats.Ranked.WinLossRatio, 'f', 3, 64),
 				Inline: true,
 			},
+
+			// Casual
 			{
 				Name:   "Casual PlayTime",
 				Value:  strconv.FormatFloat(player.Stats.Casual.Playtime / 60 / 60, 'f', 1, 64),
 				Inline: true,
 			},
 			{
-				Name: "Favorite Atk Op",
+				Name:   "Kill/Death",
+				Value:  strconv.FormatFloat(player.Stats.Casual.KillDeathRatio, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Win/Loss",
+				Value:  strconv.FormatFloat(player.Stats.Casual.WinLossRatio, 'f', 3, 64),
+				Inline: true,
+			},
+
+			// Offensive Operator
+			{
+				Name: "Favorite Atk",
 				Value: favOff.Name,
 				Inline: true,
 			},
 			{
-				Name: "Favorite Atk Op",
-				Value: strconv.FormatFloat(, 'f', 3, 64),
+				Name: "Kill/Death",
+				Value: strconv.FormatFloat(favOffKD, 'f', 3, 64),
 				Inline: true,
 			},
 			{
-				Name:   "Favorite Atk Op",
-				Value:  favOff.Name,
+				Name:   "Win/Loss",
+				Value: strconv.FormatFloat(favOffWL, 'f', 3, 64),
 				Inline: true,
 			},
+
+			// Defensive Operator
 			{
-				Name: "Favorite Def Op",
+				Name: "Favorite Def",
 				Value: favDef.Name,
+				Inline: true,
+			},
+			{
+				Name: "Kill/Death",
+				Value: strconv.FormatFloat(favDefKD, 'f', 3, 64),
+				Inline: true,
+			},
+			{
+				Name:   "Win/Loss",
+				Value: strconv.FormatFloat(favDefWL, 'f', 3, 64),
 				Inline: true,
 			},
 		},
 	}
 
-	s.ChannelMessageSendEmbed(m.ChannelID, &msg)
+	s.ChannelMessageEditEmbed(m.ChannelID, msg.ID, &statsMsg)
 }
 
 func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, operator string) {
@@ -212,6 +235,14 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 	}
 
 	s.ChannelMessageSendEmbed(m.ChannelID, &msg)
+}
+
+func operatorKD(op *r6.Operator) float64 {
+	return float64(op.Kills) / float64(op.Deaths)
+}
+
+func operatorWL(op *r6.Operator) float64 {
+	return float64(op.Wins) / float64(op.Losses)
 }
 
 func newMsg(description string) *discordgo.MessageEmbed {
