@@ -1,0 +1,158 @@
+
+		"name": {
+			Raw: "a",
+			Clean: "b",
+		},
+---
+"Hibana": {
+Raw: "operatorpvp_hibana_detonate_projectile",
+  Clean: "Detnote Projectile",
+  }
+"Vigil": {
+Raw: "operatorpvp_attackerdrone_diminishedrealitymode",
+  Clean: "Diminshed Reality Mode",
+  }
+"Lesion": {
+Raw: "operatorpvp_caltrop_enemy_affected",
+  Clean: "Caltrop Enemy Affected",
+  }
+"Zofia": {
+Raw: "operatorpvp_concussiongrenade_detonate",
+  Clean: "Concussiong Grenade Detonate",
+  }
+"Fuze": {
+Raw: "operatorpvp_fuze_clusterchargekill",
+  Clean: "Cluster Charge Kill",
+  }
+"Dokkaebi": {
+Raw: "operatorpvp_phoneshacked",
+  Clean: "Phones Hacked",
+  }
+"Smoke": {
+Raw: "operatorpvp_smoke_poisongaskill",
+  Clean: "Poison Gas Kill",
+  }
+"Finka": {
+Raw: "operatorpvp_rush_adrenalinerush",
+  Clean: "Adrenaline Rush",
+  }
+"Lion": {
+Raw: "operatorpvp_tagger_tagdevice_spot",
+  Clean: "Tag Device Spot",
+  }
+"Doc": {
+Raw: "operatorpvp_doc_teammaterevive",
+  Clean: "Teammate Revive",
+  }
+"Caveira": {
+Raw: "operatorpvp_caveira_interrogations",
+  Clean: "Interrogations",
+  }
+"Sledge": {
+Raw: "operatorpvp_sledge_hammerkill",
+  Clean: "Hammer Kills",
+  }
+"Castle": {
+Raw: "operatorpvp_castle_kevlarbarricadedeployed",
+  Clean: "Kevlar Barricade Deployed",
+  }
+"Ela": {
+Raw: "operatorpvp_concussionmine_detonate",
+  Clean: "Concussion Mine Detonate",
+  }
+"Glaz": {
+Raw: "operatorpvp_glaz_sniperpenetrationkill",
+  Clean: "Sniper Penetration Kill",
+  }
+"Twitch": {
+Raw: "operatorpvp_twitch_gadgetdestroybyshockdrone",
+  Clean: "Gadget Destroyed By Shock Drone",
+  }
+"Tachanka": {
+Raw: "operatorpvp_tachanka_turretdeployed",
+  Clean: "Turret Deployed",
+  }
+"Thermite": {
+Raw: "operatorpvp_thermite_reinforcementbreached",
+  Clean: "Reinforcement Breached",
+  }
+"Blitz": {
+Raw: "operatorpvp_blitz_flashfollowupkills",
+  Clean: "Flash Follow Up Kill",
+  }
+"Ying": {
+Raw: "operatorpvp_dazzler_gadget_detonate",
+  Clean: "Dazzler Gadget Detonated",
+  }
+"Mira": {
+Raw: "operatorpvp_black_mirror_gadget_deployed",
+  Clean: "Black Mirrors Deployed",
+  }
+"Bandit": {
+Raw: "operatorpvp_bandit_batterykill",
+  Clean: "Battery Kills",
+  }
+"Jackal": {
+Raw: "operatorpvp_cazador_assist_kill",
+  Clean: "Cazador Assist Kill",
+  }
+"Echo": {
+Raw: "operatorpvp_echo_enemy_sonicburst_affected",
+  Clean: "Echo Enemy Affected By Sonicburst",
+  }
+"Pulse": {
+Raw: "operatorpvp_pulse_heartbeatassist",
+  Clean: "Heart Beat Assist",
+  }
+"Montagne": {
+Raw: "operatorpvp_montagne_shieldblockdamage",
+  Clean: "Shield Blocked Damaged",
+  }
+"IQ": {
+Raw: "operatorpvp_iq_gadgetspotbyef",
+  Clean: "Gadgets Spotted by EF",
+  }
+"Mute": {
+Raw: "operatorpvp_mute_jammerdeployed",
+  Clean: "Jammers Deployed",
+  }
+"Ash": {
+Raw: "operatorpvp_ash_bonfirewallbreached",
+  Clean: "Walls Breached By Bonfire",
+  }
+"Rook": {
+Raw: "operatorpvp_rook_armortakenteammate",
+  Clean: "Armor Taken By Team Mates",
+  }
+"Capitão": {
+Raw: "operatorpvp_capitao_lethaldartkills",
+  Clean: "Leathal Dart Kills",
+  }
+"Blackbeard": {
+Raw: "operatorpvp_blackbeard_gunshieldblockdamage",
+  Clean: "Gun Shield Blocked Damage",
+  }
+"Buck": {
+Raw: "operatorpvp_buck_kill",
+  Clean: "Master Key Kills",
+  }
+"Frost": {
+Raw: "operatorpvp_frost_dbno",
+  Clean: "Frost DBNOs Placed",
+  }
+"Jäger": {
+Raw: "operatorpvp_jager_gadgetdestroybycatcher",
+  Clean: "Gadget Destroyed by Catcher",
+  }
+"Valkyrie": {
+Raw: "operatorpvp_valkyrie_camdeployed",
+  Clean: "Cameras Deployed",
+  }
+"Thatcher": {
+Raw: "operatorpvp_thatcher_gadgetdestroywithemp",
+  Clean: "Gadgets Destroyed With EMP",
+  }
+"Kapkan": {
+Raw: "operatorpvp_kapkan_boobytrapdeployed",
+  Clean: "Booby Traps Placed",
+  }

@@ -71,6 +71,8 @@ func (c *client) getOperators(playerName string, platform string, player *Player
 			player.Operators = map[string]Operator{}
 		}
 
+
+
 		player.Operators[op.Operator.Name] = Operator{
 			Name:     op.Operator.Name,
 			Role:     op.Operator.Role,
@@ -79,7 +81,7 @@ func (c *client) getOperators(playerName string, platform string, player *Player
 			Kills:    op.Stats.Kills,
 			Deaths:   op.Stats.Deaths,
 			Playtime: op.Stats.Playtime,
-			Specials: op.Stats.Specials,
+			Specials: translateOperatorSpecials(op.Operator.Name, op.Stats.Specials),
 			Images:   op.Operator.Images,
 		}
 	}

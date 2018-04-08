@@ -1,0 +1,894 @@
+{
+  "operator_records": [
+    {
+      "stats": {
+        "played": 88,
+        "wins": 47,
+        "losses": 41,
+        "kills": 107,
+        "deaths": 55,
+        "playtime": 19575,
+        "specials": {
+          "operatorpvp_hibana_detonate_projectile": "412"
+        }
+      },
+      "operator": {
+        "name": "Hibana",
+        "role": "atk",
+        "ctu": "SAT",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/hvgu77usj/hibana.png",
+          "bust": "https://s19.postimg.org/ma78inhyb/hibana.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 56,
+        "wins": 39,
+        "losses": 17,
+        "kills": 70,
+        "deaths": 35,
+        "playtime": 11843,
+        "specials": {
+          "operatorpvp_attackerdrone_diminishedrealitymode": "15"
+        }
+      },
+      "operator": {
+        "name": "Vigil",
+        "role": "def",
+        "ctu": "SMB",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/jpsxmatxv/badge-vigil.4db5385b.png",
+          "bust": "https://s19.postimg.org/yyiv0kg1v/vigil.png\n"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 155,
+        "wins": 82,
+        "losses": 73,
+        "kills": 187,
+        "deaths": 100,
+        "playtime": 31068,
+        "specials": {
+          "operatorpvp_caltrop_enemy_affected": "116"
+        }
+      },
+      "operator": {
+        "name": "Lesion",
+        "role": "def",
+        "ctu": "SDU",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/sqot03mzn/lesion-badge.png\n",
+          "bust": "https://s19.postimg.org/bm7hxff37/lesion.png\n"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 142,
+        "wins": 75,
+        "losses": 67,
+        "kills": 195,
+        "deaths": 93,
+        "playtime": 28002,
+        "specials": {
+          "operatorpvp_concussiongrenade_detonate": "59"
+        }
+      },
+      "operator": {
+        "name": "Zofia",
+        "role": "atk",
+        "ctu": "GROM",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/9fqin2yxf/zofia_badge.png",
+          "bust": "https://s19.postimg.org/nyxnoyhwz/zofia.png\n"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 246,
+        "wins": 113,
+        "losses": 133,
+        "kills": 288,
+        "deaths": 164,
+        "playtime": 50195,
+        "specials": {
+          "operatorpvp_fuze_clusterchargekill": "25"
+        }
+      },
+      "operator": {
+        "name": "Fuze",
+        "role": "atk",
+        "ctu": "Spetsnaz",
+        "images": {
+          "figure": "https://s19.postimg.org/ss8z4i2sj/fuze.png",
+          "badge": "https://s19.postimg.org/bf7vh4m8z/fuze.png",
+          "bust": "https://s19.postimg.org/jnrq1pqqr/fuze.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 50,
+        "wins": 18,
+        "losses": 32,
+        "kills": 63,
+        "deaths": 38,
+        "playtime": 11014,
+        "specials": {
+          "operatorpvp_phoneshacked": "1"
+        }
+      },
+      "operator": {
+        "name": "Dokkaebi",
+        "role": "atk",
+        "ctu": "SMB",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/ftflqbodv/badge-dokkaebi.2f83a34f.png",
+          "bust": "https://s19.postimg.org/6lnda421f/dokkaebi.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 122,
+        "wins": 53,
+        "losses": 69,
+        "kills": 112,
+        "deaths": 80,
+        "playtime": 25153,
+        "specials": {
+          "operatorpvp_smoke_poisongaskill": "4"
+        }
+      },
+      "operator": {
+        "name": "Smoke",
+        "role": "def",
+        "ctu": "SAS",
+        "images": {
+          "figure": "https://s19.postimg.org/u4h0vj4ir/smoke.png",
+          "badge": "https://s19.postimg.org/89rv4nt0j/smoke.png",
+          "bust": "https://s19.postimg.org/bpspmbo2r/smoke.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 8,
+        "wins": 2,
+        "losses": 6,
+        "kills": 6,
+        "deaths": 8,
+        "playtime": 1662,
+        "specials": {
+          "operatorpvp_rush_adrenalinerush": "2"
+        }
+      },
+      "operator": {
+        "name": "Finka",
+        "role": "atk",
+        "ctu": "CBRN",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/4hxdqtfof/badge-finka.71d3a243.png",
+          "bust": "https://s19.postimg.org/gjsrl49j3/large-finka.46fb7c59.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 32,
+        "wins": 15,
+        "losses": 17,
+        "kills": 32,
+        "deaths": 27,
+        "playtime": 6239,
+        "specials": {
+          "operatorpvp_tagger_tagdevice_spot": "45"
+        }
+      },
+      "operator": {
+        "name": "Lion",
+        "role": "atk",
+        "ctu": "CBRN",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/p227pb35b/badge-lion.69637075.png",
+          "bust": "https://s19.postimg.org/u0pq3zc4v/large-lion.0d32ef8f.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 92,
+        "wins": 46,
+        "losses": 46,
+        "kills": 99,
+        "deaths": 53,
+        "playtime": 18934,
+        "specials": {
+          "operatorpvp_doc_selfrevive": "15",
+          "operatorpvp_doc_hostagerevive": "0",
+          "operatorpvp_doc_teammaterevive": "6"
+        }
+      },
+      "operator": {
+        "name": "Doc",
+        "role": "def",
+        "ctu": "GIGN",
+        "images": {
+          "figure": "https://s19.postimg.org/i06csah0j/doc.png",
+          "badge": "https://s19.postimg.org/e5cm0ktk3/doc.png",
+          "bust": "https://s19.postimg.org/c6dx8rbtv/doc.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 258,
+        "wins": 138,
+        "losses": 120,
+        "kills": 307,
+        "deaths": 172,
+        "playtime": 51004,
+        "specials": {
+          "operatorpvp_caveira_interrogations": "19"
+        }
+      },
+      "operator": {
+        "name": "Caveira",
+        "role": "def",
+        "ctu": "BOPE",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/egu2dca03/caveira.png",
+          "bust": "https://s19.postimg.org/km3hq9eoz/caveira.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 474,
+        "wins": 241,
+        "losses": 233,
+        "kills": 591,
+        "deaths": 319,
+        "playtime": 95531,
+        "specials": {
+          "operatorpvp_sledge_hammerhole": "335",
+          "operatorpvp_sledge_hammerkill": "0"
+        }
+      },
+      "operator": {
+        "name": "Sledge",
+        "role": "atk",
+        "ctu": "SAS",
+        "images": {
+          "figure": "https://s19.postimg.org/4blrcwvqb/sledge.png",
+          "badge": "https://s19.postimg.org/51ndrm6qr/sledge.png",
+          "bust": "https://s19.postimg.org/a3coskqsj/sledge.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 221,
+        "wins": 112,
+        "losses": 109,
+        "kills": 187,
+        "deaths": 140,
+        "playtime": 47641,
+        "specials": {
+          "operatorpvp_castle_kevlarbarricadedeployed": "486"
+        }
+      },
+      "operator": {
+        "name": "Castle",
+        "role": "def",
+        "ctu": "FBI SWAT",
+        "images": {
+          "figure": "https://s19.postimg.org/d96ha9o6b/castle.png",
+          "badge": "https://s19.postimg.org/dq1c7k7mr/castle.png",
+          "bust": "https://s19.postimg.org/hmrzpeftv/castle.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 713,
+        "wins": 413,
+        "losses": 300,
+        "kills": 1071,
+        "deaths": 383,
+        "playtime": 139905,
+        "specials": {
+          "operatorpvp_concussionmine_detonate": "332"
+        }
+      },
+      "operator": {
+        "name": "Ela",
+        "role": "def",
+        "ctu": "GROM",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/80oxycaoz/badge-ela.63ec2d26.png",
+          "bust": "https://s19.postimg.org/8teadeeqr/ela.png\n"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 603,
+        "wins": 290,
+        "losses": 313,
+        "kills": 824,
+        "deaths": 412,
+        "playtime": 120066,
+        "specials": {
+          "operatorpvp_glaz_sniperkill": "797",
+          "operatorpvp_glaz_sniperpenetrationkill": "66"
+        }
+      },
+      "operator": {
+        "name": "Glaz",
+        "role": "atk",
+        "ctu": "Spetsnaz",
+        "images": {
+          "figure": "https://s19.postimg.org/x03rd9483/glaz.png",
+          "badge": "https://s19.postimg.org/52sq7aj6r/glaz.png",
+          "bust": "https://s19.postimg.org/izivirs0z/glaz.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 59,
+        "wins": 31,
+        "losses": 28,
+        "kills": 47,
+        "deaths": 37,
+        "playtime": 12234,
+        "specials": {
+          "operatorpvp_twitch_shockdronekill": "2",
+          "operatorpvp_twitch_gadgetdestroybyshockdrone": "27"
+        }
+      },
+      "operator": {
+        "name": "Twitch",
+        "role": "atk",
+        "ctu": "GIGN",
+        "images": {
+          "figure": "https://s19.postimg.org/wlxdgjdsz/twitch.png",
+          "badge": "https://s19.postimg.org/j1pfjr8gz/twitch.png",
+          "bust": "https://s19.postimg.org/58eegk337/twitch.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 81,
+        "wins": 37,
+        "losses": 44,
+        "kills": 72,
+        "deaths": 60,
+        "playtime": 16135,
+        "specials": {
+          "operatorpvp_tachanka_turretkill": "10",
+          "operatorpvp_tachanka_turretdeployed": "77"
+        }
+      },
+      "operator": {
+        "name": "Tachanka",
+        "role": "def",
+        "ctu": "Spetsnaz",
+        "images": {
+          "figure": "https://s19.postimg.org/5gkvfeoir/tachanka.png",
+          "badge": "https://s19.postimg.org/6j8u36bhf/tachanka.png",
+          "bust": "https://s19.postimg.org/5we280n1f/tachanka.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 431,
+        "wins": 205,
+        "losses": 226,
+        "kills": 396,
+        "deaths": 292,
+        "playtime": 91603,
+        "specials": {
+          "operatorpvp_thermite_chargekill": "4",
+          "operatorpvp_thermite_chargedeployed": "303",
+          "operatorpvp_thermite_reinforcementbreached": "208"
+        }
+      },
+      "operator": {
+        "name": "Thermite",
+        "role": "atk",
+        "ctu": "FBI SWAT",
+        "images": {
+          "figure": "https://s19.postimg.org/fhknrlvab/thermite.png",
+          "badge": "https://s19.postimg.org/mwstmbrmr/thermite.png",
+          "bust": "https://s19.postimg.org/tjxef3lwj/thermite.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 1076,
+        "wins": 601,
+        "losses": 475,
+        "kills": 990,
+        "deaths": 759,
+        "playtime": 222372,
+        "specials": {
+          "operatorpvp_blitz_flashedenemy": "390",
+          "operatorpvp_blitz_flashshieldassist": "29",
+          "operatorpvp_blitz_flashfollowupkills": "113"
+        }
+      },
+      "operator": {
+        "name": "Blitz",
+        "role": "atk",
+        "ctu": "GSG 9",
+        "images": {
+          "figure": "https://s19.postimg.org/c8bai9dib/blitz.png",
+          "badge": "https://s19.postimg.org/m4gyvn8o3/blitz.png",
+          "bust": "https://s19.postimg.org/pv341vmhv/blitz.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 98,
+        "wins": 45,
+        "losses": 53,
+        "kills": 112,
+        "deaths": 76,
+        "playtime": 19228,
+        "specials": {
+          "operatorpvp_dazzler_gadget_detonate": "135"
+        }
+      },
+      "operator": {
+        "name": "Ying",
+        "role": "atk",
+        "ctu": "SDU",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/3yp6sv5sz/ying-badge.png\n",
+          "bust": "https://s19.postimg.org/zfqr2dixv/ying.png\n"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 42,
+        "wins": 23,
+        "losses": 19,
+        "kills": 38,
+        "deaths": 27,
+        "playtime": 8099,
+        "specials": {
+          "operatorpvp_black_mirror_gadget_deployed": "74"
+        }
+      },
+      "operator": {
+        "name": "Mira",
+        "role": "def",
+        "ctu": "GEO",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/wmkswmdnn/mira.png",
+          "bust": "https://s19.postimg.org/savqo8psz/mira.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 156,
+        "wins": 78,
+        "losses": 78,
+        "kills": 178,
+        "deaths": 107,
+        "playtime": 30844,
+        "specials": {
+          "operatorpvp_bandit_batterykill": "0"
+        }
+      },
+      "operator": {
+        "name": "Bandit",
+        "role": "def",
+        "ctu": "GSG 9",
+        "images": {
+          "figure": "https://s19.postimg.org/hnk0j852b/bandit.png",
+          "badge": "https://s19.postimg.org/ygjv94wir/bandit.png",
+          "bust": "https://s19.postimg.org/adb0kfqn7/bandit.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 40,
+        "wins": 19,
+        "losses": 21,
+        "kills": 37,
+        "deaths": 30,
+        "playtime": 8324,
+        "specials": {
+          "operatorpvp_cazador_assist_kill": "0"
+        }
+      },
+      "operator": {
+        "name": "Jackal",
+        "role": "atk",
+        "ctu": "GEO",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/4xtkbd19f/jackal.png",
+          "bust": "https://s19.postimg.org/fouiiw23n/jackal.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 65,
+        "wins": 37,
+        "losses": 28,
+        "kills": 69,
+        "deaths": 41,
+        "playtime": 12944,
+        "specials": {
+          "operatorpvp_echo_enemy_sonicburst_affected": "1"
+        }
+      },
+      "operator": {
+        "name": "Echo",
+        "role": "def",
+        "ctu": "SAT",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/vwstsrycj/echo.png",
+          "bust": "https://s19.postimg.org/c0085o2oz/echo.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 278,
+        "wins": 153,
+        "losses": 125,
+        "kills": 298,
+        "deaths": 176,
+        "playtime": 56912,
+        "specials": {
+          "operatorpvp_pulse_heartbeatspot": "450",
+          "operatorpvp_pulse_heartbeatassist": "6"
+        }
+      },
+      "operator": {
+        "name": "Pulse",
+        "role": "def",
+        "ctu": "FBI SWAT",
+        "images": {
+          "figure": "https://s19.postimg.org/6l9vno4o3/pulse.png",
+          "badge": "https://s19.postimg.org/b0171uppf/pulse.png",
+          "bust": "https://s19.postimg.org/5ap3bwrz7/pulse.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 33,
+        "wins": 18,
+        "losses": 15,
+        "kills": 22,
+        "deaths": 21,
+        "playtime": 6302,
+        "specials": {
+          "operatorpvp_montagne_shieldblockdamage": "173"
+        }
+      },
+      "operator": {
+        "name": "Montagne",
+        "role": "atk",
+        "ctu": "GIGN",
+        "images": {
+          "figure": "https://s19.postimg.org/6draoa00z/montagne.png",
+          "badge": "https://s19.postimg.org/rxvm9y9pf/montagne.png",
+          "bust": "https://s19.postimg.org/8kcp9uuub/montagne.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 48,
+        "wins": 25,
+        "losses": 23,
+        "kills": 62,
+        "deaths": 32,
+        "playtime": 10511,
+        "specials": {
+          "operatorpvp_iq_gadgetspotbyef": "305"
+        }
+      },
+      "operator": {
+        "name": "IQ",
+        "role": "atk",
+        "ctu": "GSG 9",
+        "images": {
+          "figure": "https://s19.postimg.org/zb1thfezn/iq.png",
+          "badge": "https://s19.postimg.org/w36ivv7hf/iq.png",
+          "bust": "https://s19.postimg.org/rf8g09uw3/iq.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 74,
+        "wins": 35,
+        "losses": 39,
+        "kills": 50,
+        "deaths": 44,
+        "playtime": 15020,
+        "specials": {
+          "operatorpvp_mute_gadgetjammed": "72",
+          "operatorpvp_mute_jammerdeployed": "236"
+        }
+      },
+      "operator": {
+        "name": "Mute",
+        "role": "def",
+        "ctu": "SAS",
+        "images": {
+          "figure": "https://s19.postimg.org/vkx4rewtf/mute.png",
+          "badge": "https://s19.postimg.org/5n7r9zcf7/mute.png",
+          "bust": "https://s19.postimg.org/igds9i0mb/mute.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 337,
+        "wins": 187,
+        "losses": 150,
+        "kills": 378,
+        "deaths": 217,
+        "playtime": 67583,
+        "specials": {
+          "operatorpvp_ash_bonfirekill": "3",
+          "operatorpvp_ash_bonfirewallbreached": "233"
+        }
+      },
+      "operator": {
+        "name": "Ash",
+        "role": "atk",
+        "ctu": "FBI SWAT",
+        "images": {
+          "figure": "https://s19.postimg.org/a3lvk25k3/ash.png",
+          "badge": "https://s19.postimg.org/50496pq5f/ash.png",
+          "bust": "https://s19.postimg.org/wtbtlka03/ash.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 883,
+        "wins": 511,
+        "losses": 372,
+        "kills": 873,
+        "deaths": 516,
+        "playtime": 191855,
+        "specials": {
+          "operatorpvp_rook_armorboxdeployed": "893",
+          "operatorpvp_rook_armortakenourself": "879",
+          "operatorpvp_rook_armortakenteammate": "2992"
+        }
+      },
+      "operator": {
+        "name": "Rook",
+        "role": "def",
+        "ctu": "GIGN",
+        "images": {
+          "figure": "https://s19.postimg.org/of5doynqb/rook.png",
+          "badge": "https://s19.postimg.org/c3lbdtacj/rook.png",
+          "bust": "https://s19.postimg.org/i27uw5r4z/rook.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 177,
+        "wins": 80,
+        "losses": 97,
+        "kills": 192,
+        "deaths": 126,
+        "playtime": 37125,
+        "specials": {
+          "operatorpvp_capitao_lethaldartkills": "13"
+        }
+      },
+      "operator": {
+        "name": "Capitão",
+        "role": "atk",
+        "ctu": "BOPE",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/l4qnzxtib/capitao.png",
+          "bust": "https://s19.postimg.org/g6pnyqroj/capitao.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 263,
+        "wins": 157,
+        "losses": 106,
+        "kills": 355,
+        "deaths": 161,
+        "playtime": 59462,
+        "specials": {
+          "operatorpvp_blackbeard_gunshieldblockdamage": "491"
+        }
+      },
+      "operator": {
+        "name": "Blackbeard",
+        "role": "atk",
+        "ctu": "Navy Seal",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/t6ewhuc9v/blackbeard.png",
+          "bust": "https://s19.postimg.org/4pdwl112b/blackbeard.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 242,
+        "wins": 139,
+        "losses": 103,
+        "kills": 259,
+        "deaths": 159,
+        "playtime": 49466,
+        "specials": {
+          "operatorpvp_buck_kill": "3"
+        }
+      },
+      "operator": {
+        "name": "Buck",
+        "role": "atk",
+        "ctu": "JTF2",
+        "images": {
+          "figure": "https://s19.postimg.org/nprn9ptib/buck.png",
+          "badge": "https://s19.postimg.org/4sgma7f6r/buck.png",
+          "bust": "https://s19.postimg.org/5p47gqg83/buck.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 655,
+        "wins": 362,
+        "losses": 293,
+        "kills": 841,
+        "deaths": 390,
+        "playtime": 130318,
+        "specials": {
+          "operatorpvp_frost_dbno": "188"
+        }
+      },
+      "operator": {
+        "name": "Frost",
+        "role": "def",
+        "ctu": "JTF2",
+        "images": {
+          "figure": "https://s19.postimg.org/hdh3dmftv/frost.png",
+          "badge": "https://s19.postimg.org/aof5bcjvn/frost.png",
+          "bust": "https://s19.postimg.org/ynfhbti8z/frost.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 333,
+        "wins": 165,
+        "losses": 168,
+        "kills": 405,
+        "deaths": 207,
+        "playtime": 66083,
+        "specials": {
+          "operatorpvp_jager_gadgetdestroybycatcher": "172"
+        }
+      },
+      "operator": {
+        "name": "Jäger",
+        "role": "def",
+        "ctu": "GSG 9",
+        "images": {
+          "figure": "https://s19.postimg.org/5x631uc9v/jager.png",
+          "badge": "https://s19.postimg.org/56mjnjoo3/jager.png",
+          "bust": "https://s19.postimg.org/nzbqcz89v/jager.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 36,
+        "wins": 22,
+        "losses": 14,
+        "kills": 54,
+        "deaths": 21,
+        "playtime": 7173,
+        "specials": {
+          "operatorpvp_valkyrie_camdeployed": "80"
+        }
+      },
+      "operator": {
+        "name": "Valkyrie",
+        "role": "def",
+        "ctu": "Navy Seal",
+        "images": {
+          "figure": null,
+          "badge": "https://s19.postimg.org/6bl76o0ir/valkyrie.png",
+          "bust": "https://s19.postimg.org/55pxfza1v/valkyrie.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 274,
+        "wins": 138,
+        "losses": 136,
+        "kills": 270,
+        "deaths": 184,
+        "playtime": 59007,
+        "specials": {
+          "operatorpvp_thatcher_gadgetdestroywithemp": "130"
+        }
+      },
+      "operator": {
+        "name": "Thatcher",
+        "role": "atk",
+        "ctu": "SAS",
+        "images": {
+          "figure": "https://s19.postimg.org/cv55ao42r/thatcher.png",
+          "badge": "https://s19.postimg.org/cy7uzui77/thatcher.png",
+          "bust": "https://s19.postimg.org/kmcohqtgj/thatcher.png"
+        }
+      }
+    },
+    {
+      "stats": {
+        "played": 97,
+        "wins": 56,
+        "losses": 41,
+        "kills": 90,
+        "deaths": 62,
+        "playtime": 20211,
+        "specials": {
+          "operatorpvp_kapkan_boobytrapkill": "2",
+          "operatorpvp_kapkan_boobytrapdeployed": "299"
+        }
+      },
+      "operator": {
+        "name": "Kapkan",
+        "role": "def",
+        "ctu": "Spetsnaz",
+        "images": {
+          "figure": "https://s19.postimg.org/mfttunzqb/kapkan.png",
+          "badge": "https://s19.postimg.org/jr3midjmr/kapkan.png",
+          "bust": "https://s19.postimg.org/7yj500aeb/kapkan.png"
+        }
+      }
+    }
+  ]
+}
