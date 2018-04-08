@@ -229,8 +229,6 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 
 	fmt.Println(op.Specials)
 	for k, v := range op.Specials {
-		fmt.Println(k)
-		fmt.Println(v)
 		fields = append(fields, &discordgo.MessageEmbedField{
 			Name:   k,
 			Value:  v,

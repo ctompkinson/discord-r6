@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a64d6c9-059d-4a87-a150-bcaa42a79296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/fixtures/operator_response.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" afterPath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -25,8 +20,8 @@
           <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+                <state relative-caret-position="423">
+                  <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
                   <folding>
                     <element signature="e#14#180#0" expanded="true" />
                     <element signature="n#!!block;n#main#1" expanded="false" />
@@ -35,7 +30,7 @@
                     <element signature="e#2958#4460#0" expanded="false" />
                     <element signature="n#!!block;n#operatorWL#0" expanded="false" />
                     <element signature="n#!!block;n#favOps#0" expanded="false" />
-                    <element signature="e#6529#6609#0" expanded="false" />
+                    <element signature="e#6495#6575#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -143,12 +138,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/fixtures/operator_response.json" />
         <option value="$PROJECT_DIR$/helpers.go" />
         <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" />
         <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml" />
         <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -192,36 +187,6 @@
               <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
               <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
               <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="ctompkinson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="ctompkinson" type="462c0819:PsiDirectoryNode" />
-              <item name="go-r6stats" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,7 +326,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -435,7 +400,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,7 +452,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -546,7 +511,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,7 +549,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -711,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        <state relative-caret-position="423">
+          <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
           <folding>
             <element signature="e#14#180#0" expanded="true" />
             <element signature="n#!!block;n#main#1" expanded="false" />
@@ -721,7 +686,7 @@
             <element signature="e#2958#4460#0" expanded="false" />
             <element signature="n#!!block;n#operatorWL#0" expanded="false" />
             <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6529#6609#0" expanded="false" />
+            <element signature="e#6495#6575#0" expanded="false" />
           </folding>
         </state>
       </provider>
