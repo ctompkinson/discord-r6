@@ -6,6 +6,7 @@ import (
 	"github.com/pkg/errors"
 	"net/http"
 	"strconv"
+	"log"
 )
 
 func NewClient(httpClient http.Client) client {
@@ -62,7 +63,8 @@ func (c *client) getOperators(playerName string, platform string, player *Player
 	resErr := decoder.Decode(&operatorResponse)
 	if resErr != nil {
 		fmt.Println(resErr)
-		return errors.Wrap(err, "Unable to retrieve operators")
+		log.Println("I got no operators")
+		return errors.Wrap(err, "Ive got no operators")
 	}
 	res.Body.Close()
 
