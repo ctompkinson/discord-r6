@@ -71,7 +71,7 @@ func getMessageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}
 
 	// Send the initial loading message
-	fmt.Println("Sending stats")
+	log.Printf("Request for stats by %s to %s with %s", m.Author, m.ChannelID, m.Message)
 	loadingMsg := discordgo.MessageEmbed{
 		Title: "Loading stats for " + parts[1],
 	}
@@ -191,7 +191,7 @@ func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r
 }
 
 func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, operatorName string, msg *discordgo.Message) {
-	fmt.Println("getting stats for " + operatorName)
+	log.Println("getting stats for " + operatorName)
 
 	opName := strings.Title(operatorName)
 
@@ -227,7 +227,6 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 		},
 	}
 
-	fmt.Println(op.Specials)
 	for k, v := range op.Specials {
 		fields = append(fields, &discordgo.MessageEmbedField{
 			Name:   k,
