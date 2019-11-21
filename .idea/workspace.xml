@@ -2,123 +2,427 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a64d6c9-059d-4a87-a150-bcaa42a79296" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/Godeps/Godeps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Godeps/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/discord.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/discord_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/docs/GettingStarted.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/docs/img/discordgo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/endpoints.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/event.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/eventhandlers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/events.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/airhorn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/airhorn/airhorn.dca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/airhorn/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/appmaker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/appmaker/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/avatar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/avatar/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/mytoken/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/mytoken/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/pingpong/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/examples/pingpong/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/message_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/mkdocs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/oauth2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/oauth2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/ratelimit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/ratelimit_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/restapi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/restapi_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/state.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/structs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/tools/cmd/eventhandlers/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/types_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/user_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/voice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/bwmarrin/discordgo/wsapi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/Godeps/Godeps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/Godeps/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_clone_legacy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/compression.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/compression_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_broadcast_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_read.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_read_legacy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/fuzzingclient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/autobahn/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/hub.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/chat/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/command/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/echo/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/filewatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/examples/filewatch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/json_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask_safe.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/mask_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/prepared.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/prepared_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/websocket/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/format_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/acme.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/acme_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/autocert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/autocert_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/listener.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/renewal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/renewal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/jws.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/jws_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/types_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/argon2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/argon2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/blake2b.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/blamka_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/blamka_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/blamka_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/argon2/blamka_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bcrypt/base64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bcrypt/bcrypt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bcrypt/bcrypt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2bAVX2_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2bAVX2_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2b_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/blake2x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2b/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_386.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_386.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2s_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/blake2x.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blake2s/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blowfish/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blowfish/blowfish_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blowfish/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/blowfish/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/bn256.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/bn256_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/constants.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/curve.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/gfp12.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/gfp2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/gfp6.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/optate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/bn256/twist.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cast5/cast5.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cast5/cast5_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_noasm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/chacha20poly1305/chacha20poly1305_vectors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/codereview.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/asn1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/asn1/asn1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/asn1_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/builder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/cryptobyte_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/cryptobyte/string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/const_amd64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/const_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/cswap_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/curve25519.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/curve25519_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/freeze_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/ladderstep_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/mont25519_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/mul_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/curve25519/square_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ed25519/ed25519.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ed25519/ed25519_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ed25519/internal/edwards25519/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ed25519/internal/edwards25519/edwards25519.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ed25519/testdata/sign.input.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/hkdf/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/hkdf/hkdf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/hkdf/hkdf_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/internal/chacha20/chacha_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/internal/chacha20/chacha_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/md4/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/md4/md4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/md4/md4_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/md4/md4block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/auth/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/auth/auth_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/auth/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/box/box.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/box/box_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/box/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/secretbox/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/secretbox/secretbox.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/nacl/secretbox/secretbox_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ocsp/ocsp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ocsp/ocsp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/armor/armor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/armor/armor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/armor/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/canonical_text.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/canonical_text_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/clearsign/clearsign.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/clearsign/clearsign_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/elgamal/elgamal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/elgamal/elgamal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/errors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/keys.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/keys_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/compressed.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/compressed_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/encrypted_key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/encrypted_key_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/literal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/ocfb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/ocfb_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/one_pass_signature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/opaque.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/opaque_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/packet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/packet_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/private_key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/private_key_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/public_key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/public_key_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/public_key_v3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/public_key_v3_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/signature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/signature_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/signature_v3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/signature_v3_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/symmetric_key_encrypted.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/symmetric_key_encrypted_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/symmetrically_encrypted.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/symmetrically_encrypted_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/userattribute.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/userattribute_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/userid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/packet/userid_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/read.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/read_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/s2k/s2k.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/s2k/s2k_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/write.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/openpgp/write_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/otr/libotr_test_helper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/otr/otr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/otr/otr_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/otr/smp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pbkdf2/pbkdf2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pbkdf2/pbkdf2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/bmp-string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/bmp-string_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/crypto_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/internal/rc2/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/internal/rc2/rc2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/internal/rc2/rc2_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/mac.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/mac_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/pbkdf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/pbkdf_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/pkcs12.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/pkcs12_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/pkcs12/safebags.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/poly1305.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/poly1305_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_arm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_arm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/poly1305/sum_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ripemd160/ripemd160block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/hsalsa20.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/salsa2020_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/salsa208.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/salsa20_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/salsa20_ref.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa/salsa_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa20.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/salsa20/salsa20_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/scrypt/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/scrypt/scrypt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/scrypt/scrypt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/hashes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf_amd64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/keccakf_amd64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/sha3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/sha3_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/shake.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/testdata/keccakKats.json.deflate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor_generic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/sha3/xor_unaligned.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/forward.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/keyring.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/keyring_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/agent/testdata_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/benchmark_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/buffer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/buffer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/certs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/certs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/channel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/cipher_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client_auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client_auth_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/client_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/connection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/handshake.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/handshake_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/kex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/kex_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/keys.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/keys_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/knownhosts/knownhosts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/knownhosts/knownhosts_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mac.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mempipe_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/messages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/messages_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/mux_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/session_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/streamlocal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/tcpip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/tcpip_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/terminal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/terminal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_bsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_solaris.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/terminal/util_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/agent_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/banner_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/cert_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/dial_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/forward_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/multi_auth_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/session_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/sshd_test_pw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/test_unix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/test/testdata_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/testdata/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/testdata/keys.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/testdata_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/ssh/transport_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/tea/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/tea/tea_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/twofish/twofish.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/twofish/twofish_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/xtea/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/xtea/cipher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/xtea/xtea_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/xts/xts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/xts/xts_test.go" beforeDir="false" />
     </list>
-    <ignored mask="rest-client.private.env.json" />
-    <ignored mask="http-client.private.env.json" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#14#180#0" expanded="true" />
-                    <element signature="n#!!block;n#main#1" expanded="false" />
-                    <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-                    <element signature="e#2842#4464#0" expanded="false" />
-                    <element signature="e#2958#4460#0" expanded="false" />
-                    <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-                    <element signature="n#!!block;n#favOps#0" expanded="false" />
-                    <element signature="e#6495#6575#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="operator_response.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/fixtures/operator_response.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
-                  <caret line="741" column="7" lean-forward="false" selection-start-line="741" selection-start-column="7" selection-end-line="741" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="translator.go" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4500">
-                  <caret line="250" column="30" lean-forward="false" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="operator_specials.yaml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="234">
-                    <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LICENSE.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/LICENSE.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="108">
-                    <caret line="6" column="398" lean-forward="false" selection-start-line="6" selection-start-column="398" selection-end-line="6" selection-end-column="398" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="client.go" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="894">
-                  <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,31 +431,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\tools\go" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../go-r6stats/model.go" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/LICENSE.md" />
-        <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go" />
-        <option value="$PROJECT_DIR$/fixtures/operator_response.json" />
-        <option value="$PROJECT_DIR$/helpers.go" />
-        <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" />
-        <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml" />
-        <option value="$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -159,90 +444,44 @@
     <option name="width" value="1779" />
     <option name="height" value="1235" />
   </component>
+  <component name="ProjectId" id="1Tw6JvgTzDlIidrS18d1GaaPuS8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="discord-r6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discord-r6" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="discord-r6" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../r6-alexa/handler.go" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19621213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="880" y="384" key="#GOROOT" timestamp="1574358765010">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="384" key="#GOROOT/0.0.2560.1440/-1680.355.1680.1050@0.0.2560.1440" timestamp="1574358765010" />
+    <state x="940" y="551" key="com.intellij.ide.util.TipDialog" timestamp="1574358754145">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="940" y="551" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/-1680.355.1680.1050@0.0.2560.1440" timestamp="1574358754145" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,445 +490,6 @@
           <url>file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go</url>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go" />
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/restapi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23940">
-          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" column="398" lean-forward="false" selection-start-line="6" selection-start-column="398" selection-end-line="6" selection-end-column="398" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/discord.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/restapi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23940">
-          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" column="398" lean-forward="true" selection-start-line="6" selection-start-column="398" selection-end-line="6" selection-end-column="398" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/discord.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/restapi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24264">
-          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/discord.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/restapi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23940">
-          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/discord.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpiceBot/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../r6-alexa/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpiceBot/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../r6-alexa/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpiceBot/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../r6-alexa/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/discord.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bwmarrin/discordgo/restapi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23940">
-          <caret line="1348" column="18" lean-forward="false" selection-start-line="1348" selection-start-column="18" selection-end-line="1348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTRIBUTERS.md" />
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" column="398" lean-forward="false" selection-start-line="6" selection-start-column="398" selection-end-line="6" selection-end-column="398" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/operator_specials.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/ctompkinson/go-r6stats/translator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4500">
-          <caret line="250" column="30" lean-forward="false" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixtures/operator_response.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="741" column="7" lean-forward="false" selection-start-line="741" selection-start-column="7" selection-end-line="741" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#180#0" expanded="true" />
-            <element signature="n#!!block;n#main#1" expanded="false" />
-            <element signature="n#!!block;n#sendStatsMessage#0" expanded="false" />
-            <element signature="e#2842#4464#0" expanded="false" />
-            <element signature="e#2958#4460#0" expanded="false" />
-            <element signature="n#!!block;n#operatorWL#0" expanded="false" />
-            <element signature="n#!!block;n#favOps#0" expanded="false" />
-            <element signature="e#6495#6575#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

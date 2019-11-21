@@ -1,0 +1,5 @@
+github.com/bwmarrin/discordgo v0.18.0/go.mod h1:5NIvFv5Z7HddYuXbuQegZ684DleQaCFqChP2iuBivJ8=
+github.com/ctompkinson/go-r6stats v0.0.0-20180308130731-371f758cf706/go.mod h1:eAXeAa7pIeqpRmLgkYX7qnJODi35bs6Q7JCA5MEkmmI=
+github.com/gorilla/websocket v1.2.0/go.mod h1:E7qHFY5m1UJ88s3WnNqhKjPHQ0heANvMoAMk2YaljkQ=
+github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+golang.org/x/crypto v0.0.0-20180306223934-85f98707c97e/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=

@@ -19,14 +19,14 @@ var (
 	Token string
 )
 
-func init() {
-	flag.StringVar(&Token, "t", "", "Bot Token")
-	flag.Parse()
-}
-
 func main() {
+	Token = os.Getenv("DISCORD_TOKEN")
+	if Token == "" {
+		log.Println("Token not found please set env variable DISCORD_TOKEN")
+		return
+	}
+
 	// Create a new Discord session using the provided bot token.
-	fmt.Println(Token)
 	dg, err := discordgo.New("Bot " + Token)
 	if err != nil {
 		log.Println("error creating Discord session,", err)
