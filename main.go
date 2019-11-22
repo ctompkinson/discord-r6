@@ -1,17 +1,17 @@
 package main
 
 import (
+	"fmt"
 	"log"
-	"flag"
-	"github.com/bwmarrin/discordgo"
-	"github.com/ctompkinson/go-r6stats"
+	"net/http"
 	"os"
 	"os/signal"
-	"syscall"
-	"strings"
-	"net/http"
-	"fmt"
 	"strconv"
+	"strings"
+	"syscall"
+
+	"github.com/bwmarrin/discordgo"
+	"github.com/ctompkinson/go-r6stats"
 )
 
 // Variables used for command line parameters
@@ -215,8 +215,7 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 			Inline: true,
 		},
 		{
-			Name:
-			"Kill/Death",
+			Name:   "Kill/Death",
 			Value:  strconv.FormatFloat(operatorKD(&op), 'f', 3, 64),
 			Inline: true,
 		},
@@ -237,8 +236,8 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 	}
 
 	opMsg := discordgo.MessageEmbed{
-		Title: fmt.Sprintf("Siege Stats for %s: %s", player.Username, op.Name),
-		Color: 10,
+		Title:  fmt.Sprintf("Siege Stats for %s: %s", player.Username, op.Name),
+		Color:  10,
 		Fields: fields,
 	}
 
