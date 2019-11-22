@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/ctompkinson/discord-r6/client"
 	"log"
 	"net/http"
 	"os"
@@ -11,7 +12,6 @@ import (
 	"syscall"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/ctompkinson/go-r6stats"
 )
 
 // Variables used for command line parameters
@@ -32,6 +32,7 @@ func main() {
 		log.Println("error creating Discord session,", err)
 		return
 	}
+
 
 	// Register the messageCreate func as a callback for MessageCreate events.
 	dg.AddHandler(getMessageHandler)
@@ -81,10 +82,12 @@ func getMessageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+
 	// Create the r6stats client and fetch the player
-	r6 := r6.NewClient(http.Client{})
+	r6 := client.NewClient(http.Client{})
 	player, err := r6.GetPlayer(parts[1], "uplay", true)
 	if err != nil {
+		log.Println(err)
 		_, err = s.ChannelMessageEditEmbed(m.ChannelID, m.Message.ID, &discordgo.MessageEmbed{
 			Title: "Failed to load player",
 		})
@@ -104,7 +107,7 @@ func getMessageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	return
 }
 
-func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, msg *discordgo.Message) {
+func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player client.Player, msg *discordgo.Message) {
 	favOff, favDef := favOps(player)
 
 	favOffKD := operatorKD(&favOff)
@@ -190,7 +193,7 @@ func sendStatsMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r
 	s.ChannelMessageEditEmbed(m.ChannelID, msg.ID, &statsMsg)
 }
 
-func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player r6.Player, operatorName string, msg *discordgo.Message) {
+func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, player client.Player, operatorName string, msg *discordgo.Message) {
 	fmt.Println("getting stats for " + operatorName)
 
 	opName := strings.Title(operatorName)
@@ -244,15 +247,15 @@ func sendOperatorMessage(s *discordgo.Session, m *discordgo.MessageCreate, playe
 	s.ChannelMessageEditEmbed(m.ChannelID, msg.ID, &opMsg)
 }
 
-func operatorKD(op *r6.Operator) float64 {
+func operatorKD(op *client.Operator) float64 {
 	return float64(op.Kills) / float64(op.Deaths)
 }
 
-func operatorWL(op *r6.Operator) float64 {
+func operatorWL(op *client.Operator) float64 {
 	return float64(op.Wins) / float64(op.Losses)
 }
 
-func favOps(player r6.Player) (favOff r6.Operator, favDef r6.Operator) {
+func favOps(player client.Player) (favOff client.Operator, favDef client.Operator) {
 	// Some intial operators to compare against
 	favOff = player.Operators["ash"]
 	favDef = player.Operators["frost"]
