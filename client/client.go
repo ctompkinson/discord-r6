@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/pkg/errors"
+	"io/ioutil"
 	"net/http"
 	"strconv"
 )
@@ -21,8 +22,13 @@ func (c *client) GetPlayer(playerName string, platform string, operators bool) (
 	}
 
 	if res.StatusCode != http.StatusOK {
+		b, err := ioutil.ReadAll(res.Body)
+		if err != nil {
+			fmt.Println("failed to read body during error retrieving player")
+		}
+
 		return Player{}, errors.New(
-			fmt.Sprintf("got status %s when retrieving player", strconv.Itoa(res.StatusCode)),
+			fmt.Sprintf("got status %s when retrieving player: %s", strconv.Itoa(res.StatusCode), string(b)),
 		)
 	}
 
