@@ -1,1 +1,1 @@
-worker: bin/main
+worker: bin/discord-r6
