@@ -91,6 +91,9 @@ func getMessageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 		_, err = s.ChannelMessageEditEmbed(m.ChannelID, m.Message.ID, &discordgo.MessageEmbed{
 			Title: "Failed to load player",
 		})
+		if err != nil {
+			log.Println(err)
+		}
 		return
 	}
 
