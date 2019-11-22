@@ -2,7 +2,7 @@ package client
 
 import "net/http"
 
-const Endpoint = "https://api.r6stats.com/api/v1"
+const Endpoint = "https://api2.r6stats.com/public-api"
 
 type client struct {
 	httpClient http.Client
